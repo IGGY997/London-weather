@@ -1,0 +1,9 @@
+{
+  "location": "London",
+  "weather": {
+    "temperature": 15,
+    "humidity": 72,
+    "windSpeed": 14
+  },
+  "alerts": ["Heavy rainfall warning", "Storm expected in the next 24 hours"]
+}

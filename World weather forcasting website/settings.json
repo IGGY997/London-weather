@@ -1,0 +1,10 @@
+{
+  "appName": "London Weather App",
+  "apiBaseUrl": "https://api.openweathermap.org/data/2.5/weather?",
+  "apiKey": "95114a6ad430acedb2f7293fef9e0972",  // Replace this with the actual API key you got
+  "defaultLocation": "London",
+  "updateInterval": 30,
+  "weatherAlertsEnabled": true
+}
+
+

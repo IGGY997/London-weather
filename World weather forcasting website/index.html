@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/weather-icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>World Weather App</h1>
+            <p>Get real-time weather updates for cities worldwide.</p>
+        </div>
+    </header>
+
+    <!-- Welcome Modal (Pop-up) -->
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Welcome to the World Weather App!</h2>
+            <p>Enter a city to get the latest weather updates from around the world!</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About This App</h2>
+        <p>This app provides real-time weather updates for cities worldwide. Stay informed with accurate and up-to-date weather information including temperature, humidity, wind speed, and weather alerts.</p>
+    </section>
+
+    <!-- Weather Info Section -->
+    <div class="weather-container container">
+        <div id="weather-info" class="weather-box">
+            <h2 id="location">Location</h2>
+            <div id="temperature"></div>
+            <div id="humidity"></div>
+            <div id="wind-speed"></div>
+            <div id="weather-alerts"></div>
+        </div>
+
+        <!-- User Location Input Section -->
+        <div id="location-input-container" class="location-box">
+            <input type="text" id="location-input" placeholder="Enter city name" />
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+
+        <!-- Weather Map Section -->
+        <div id="weather-map" class="weather-box">
+            <h3>Interactive Weather Map</h3>
+            <div id="map-placeholder">Weather map will go here</div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="container">
+        <p>&copy; 2025 World Weather App. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
