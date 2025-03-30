@@ -1,35 +1,26 @@
-London Weather App
-A modern, user-friendly weather app and website designed to provide real-time weather updates, interactive weather maps, and accurate forecasts specifically for London. This platform addresses the inefficiencies of current weather services by offering a responsive, easily accessible, and scalable solution for both London residents and visitors.
+# **Global Weather App**
 
-Table of Contents
-About
+## **Description**
+A modern and interactive weather app designed to provide real-time weather updates for any location worldwide. This platform offers a seamless user experience with personalized, location-based forecasts, interactive weather maps, and up-to-date alerts for extreme weather conditions. Whether you're at home, traveling, or planning an outdoor activity, this app ensures you stay informed about the weather conditions wherever you are in the world.
 
-Features
+## **Features**
+- **Real-time Global Weather Updates**: Instant access to accurate and up-to-date weather data for any location worldwide, including temperature, humidity, wind speed, and air quality.
+- **Interactive Weather Maps**: Visual, interactive maps to track global weather phenomena such as rain, snow, hurricanes, and temperature changes.
+- **Location-Based Forecasts**: Input any location worldwide to get personalized, hyper-localized weather forecasts.
+- **Weather Alerts & Notifications**: Receive timely push notifications for severe weather conditions such as storms, hurricanes, extreme temperatures, and other hazardous weather events.
+- **User-Friendly Interface**: Clean and responsive design ensuring smooth navigation across both desktop and mobile devices.
+- **Scalable & Modular**: Built to easily incorporate future updates and features such as climate change predictions or smart home integrations.
 
-Installation
+## **Setup**
 
-Usage
+### **Frontend**
+1. Clone the repository.
+2. Open `index.html` in your browser.
 
-Contributing
+### **Backend**
+1. Install **Node.js**.
+2. Run `npm install` to install dependencies.
+3. Run `node server.js` to start the backend server.
 
-License
-
-Links
-
-About
-The London Weather App is built to provide detailed, real-time weather data specific to the London area. The platform offers accurate weather forecasts, interactive maps, and real-time alerts for extreme weather conditions. It aims to improve the current inefficient weather systems by offering a fast, reliable, and easy-to-navigate service that helps users make informed decisions based on up-to-the-minute data.
-
-Features
-Real-Time Weather Feed: Get live updates on London's temperature, humidity, wind speed, UV index, and air quality.
-
-Location-Based Forecasts: Users can search for specific locations within London (such as districts or neighborhoods) to get tailored forecasts.
-
-Weather Alerts & Notifications: Push notifications for severe weather conditions, including floods, storms, and extreme temperatures.
-
-Interactive Weather Maps: Visual radar maps showing real-time weather phenomena like rain, snow, and temperature changes.
-
-Hourly & Weekly Forecasts: Access forecasts for the next few hours or weeks to plan ahead.
-
-Responsive Design: Optimized for both mobile and desktop devices, providing seamless navigation.
-
-# London-weather
+## **License**
+MIT License 
